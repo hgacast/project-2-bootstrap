@@ -1,0 +1,9 @@
+Repeat the HTML/CSS Project, but this time use Bootstrap. There is no need to re-invent a brand or content for the
+web site, just use the same ones you created for the original project.
+
+For this Project, you have to delete the CSS file, and use all the Bootstrap default files, after which you may re-do
+some of the content CSS.
+
+(Do not worry if your web-site does not look the same, since you're using the default bootstrap).
+
+Don't forget to deliver your stuff.

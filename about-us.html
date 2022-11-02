@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">  
+    <title>Bootstrap </title>
+    <!-- Bootstrap -->
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">     
+</head>
+<body class="container-fluid bg-dark"> 
+    <div class="container-fluid">
+        <!--navbar-->
+        <!--logo-->
+        <img alt="Logo-BeSmart" src="img/bs04.png" class="img-fluid" width="100px" height="100px"/>
+        <nav class="navbar navbar-expand-md navbar-secondary bg-secondary mb-4">
+            <div class="container-fluid">
+                <!--home-->
+                <a href="home.html" class="navbar-brand text-white">Home</a>
+                <!--menu nav-->
+                <button type="button" class="navbar-toggler btn btn-danger" data-bs-toggle="collapse" data-bs-target="#MenuNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--menu item-->
+                <div id="MenuNav" class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item dropdown">
+                            <!--about us-->
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                              About us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about-us.html">Story</a></li>
+                                <li><a class="dropdown-item" href="staff.html">Staff</a></li>
+                            </ul>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                            <!--products-->
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                              Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="products-deals.html">Deals</a></li>
+                                <li><a class="dropdown-item" href="products-electronic.html">Electronic</a></li>
+                                <li><a class="dropdown-item" href="products-music.html">Music</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <!--contact-->
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--content-->
+    <div class="container-fluid  text-center">
+        <div class="row gx-4">
+            <!--row content-->
+            <div class="col my-4">
+                <!--background section-->
+                <div class="p-3" style="background-color: rgba(252, 0, 0, 0.253);">
+                    <!--title section-->
+                    <h4 class="title bg-secondary text-white mb-4">Who are us?</h4>
+                    <!--firts row-->
+                    <div class="row">
+                        <div class="container-fluid col-md-6 d-flex justify-content-center pb-3">
+                            <!--card content-->
+                            <div class="card mb-3">
+                                <img src="img/About-us/au01.jpg" class="card-img-top" alt="be-smart">
+                                <div class="card-body">
+                                  <h5 class="card-title">Be Smart</h5>
+                                  <p class="card-text">Is a company based in Madrid since 2016, we are technology lovers and for this reason we want to offer you the best products, at the best market price.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                        </div> 
+                        <div class="container-fluid col-md-6 d-flex justify-content-center pb-3">
+                            <!--card content-->
+                            <div class="card mb-3">
+                                <img src="img/About-us/au02.jpg" class="card-img-top" alt="be-smart">
+                                <div class="card-body">
+                                  <h5 class="card-title">The dream that came true</h5>
+                                  <p class="card-text">Everything was born with an idea, which with a lot of work and continuous effort was creating the bases of our project. Thanks to this we are here today and will be for a long time.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                        </div> 
+                    </div>  
+                    <!--title section-->
+                    <h4 class="title bg-secondary text-white mb-4">Our values</h4>
+                    <!--second row-->
+                    <div class="row">
+                        <div class="container-fluid col-md-6 d-flex justify-content-center pb-3">
+                            <!--card content-->
+                            <div class="card mb-3">
+                                <img src="img/About-us/au03.jpg" class="card-img-top" alt="be-smart">
+                                <div class="card-body">
+                                  <h5 class="card-title">Meet your goals</h5>
+                                  <p class="card-text">We know what it means to work hard every day to achieve our dreams, which is why we want to provide you with the necessary tools so that you too can achieve yours.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                        </div> 
+                        <div class="container-fluid col-md-6 d-flex justify-content-center pb-3">
+                            <!--card content-->
+                            <div class="card mb-3">
+                                <img src="img/About-us/au05.jpg" class="card-img-top" alt="be-smart">
+                                <div class="card-body">
+                                  <h5 class="card-title">We are a family</h5>
+                                  <p class="card-text">And we want you to be part of it too, everything you need, the best customer service and the best prepared professionals that make us different from the rest.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                        </div> 
+                    </div>  
+                        
+                </div>
+            </div>   
+        </div>
+    </div>    
+    <!-- Copyright -->
+    <footer class="text-center text-md-start bg-secondary text-white">
+          <div class="text-center ">
+            © 2022 Copyright, BeSmart
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src = "https://code.jquery.com/jquery.js"></script>        
+    <!-- Include all compiled plugins (below), or include individual files as needed
+    <script src = "js/bootstrap.min.js"></script>
+    -->
+    <script src = "js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
